@@ -1,0 +1,23 @@
+{
+  "name": "mad-project",
+  "version": "1.0.0",
+  "description": "I am creating this project to do some practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tabinda-Hassan/MAD-practice.git"
+  },
+  "keywords": [
+    "CRUD",
+    "MERN"
+  ],
+  "author": "Tabinda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tabinda-Hassan/MAD-practice/issues"
+  },
+  "homepage": "https://github.com/Tabinda-Hassan/MAD-practice#readme"
+}
