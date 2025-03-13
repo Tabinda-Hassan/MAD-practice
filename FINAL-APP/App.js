@@ -10,6 +10,17 @@ export default function App() {
   );
 }
 
+export default function ParentComponent()
+{
+    return (
+        <View style={StyleSheet.container}>
+        <Text style={StyleSheet.boldText}>Hello! </Text>
+        <Name />  
+        </View>
+    )
+}
+
+/*
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -17,4 +28,17 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+});
+*/
+
+const styles = StyleSheet.create({
+  container: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+  },
+  boldText: {
+      fontSize: 20,
+      fontWeight: 'bold',
+  }
 });
